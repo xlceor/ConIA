@@ -1,0 +1,97 @@
+/* 
+
+.MicroButtonBlue {
+    background-color: rgb(68, 133, 238);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.MicroButtonRed {
+    background-color: rgb(240, 86, 86);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.micro {
+    width: 40px;
+    height: 40px;
+}
+.main {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Signup :hover{
+    background-color: #121e8e;
+    transition: 300ms ease-in-out;
+} */
+/* .Login :hover{
+    background-color: #ce5200;
+    transition: 300ms ease-in-out;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border-bottom: 4px solid #3d4260;
+    width: 100%;
+    left: 0;
+    top:0;
+    position: fixed;
+    /* background-color:#20222f */
+    /* padding: 30px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50%;
+    background-color:#1d1f2a;
+    border-radius: 15px;
+    padding: 10px;
+}
+.sign{
+    display: flex;
+    gap:10px;
+    margin: 0;
+    padding-right: 10px;
+} */
+/* .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.con {
+    background: linear-gradient(to right,  #ffffff, #979797);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.IA {
+    background: linear-gradient(to right,  #ff3700, #ff6f47);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.present {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introducction {
+    max-width: 300px;
+} */

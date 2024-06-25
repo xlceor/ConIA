@@ -1,0 +1,36 @@
+.logo-transition-enter {
+    opacity: 0;
+  }
+  
+  .logo-transition-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+  }
+  
+  .logo-transition-exit {
+    opacity: 1;
+  }
+  
+  .logo-transition-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms;
+  }
+  
+  .page-transition-enter {
+    opacity: 0;
+  }
+  
+  .page-transition-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+  }
+  
+  .page-transition-appear {
+    opacity: 0;
+  }
+  
+  .page-transition-appear-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+  }
+  
