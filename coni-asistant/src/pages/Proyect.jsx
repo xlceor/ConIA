@@ -150,7 +150,7 @@ const handleDeleteMember = async (memberId) => {
 
   return (
     <div className='flex flex-col mt-20 p-4 bg-gray-800/55 gap-5 rounded-2xl m-2'>
-      <div className="p-3 bg-gray-700/55 flex justify-between rounded-lg shadow-lg">
+      <div className="p-3 bg-gray-600 flex justify-between rounded-lg shadow-lg">
         <div>
           <h2 className="text-4xl font-bold mb-4">{project.name}</h2>
           <p className="mb-4">{project.description}</p>

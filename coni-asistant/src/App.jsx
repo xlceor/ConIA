@@ -20,6 +20,11 @@ import LogoTransition from './pages/LogoTransition';
 function App() {
   const [user, loading] = useAuthState(auth);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // const [background, setBackground] = useState('white');
+
+  // const changeBackground = (color) => {
+  //   setBackground(color);
+  // };
 
   useEffect(() => {
     if (user) {
@@ -44,6 +49,7 @@ function App() {
 
   return (
     <div className="App min-h-screen relative text-white flex flex-col">
+       {/* style={{ backgroundColor: background, height: '100vh' }} */}
       <Navbar isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
       <div className="flex flex-1 overflow-hidden">
         {isLoggedIn && (

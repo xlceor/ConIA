@@ -56,7 +56,7 @@ const Asistant = () => {
         formDataTx.append('username', user.displayName);
     
         try {
-            const response = await axios.post('http://127.0.0.1:5000/asistant', formDataTx);
+            const response = await axios.post('https://xlceor.pythonanywhere.com/asistant', formDataTx);
             if (response.status === 200) {
                 const { text, file } = response.data;
                 updateMessages(txRequest, text);
@@ -86,7 +86,7 @@ const Asistant = () => {
         formDataAu.append('username', user.displayName);
 
         try {
-            const response = await axios.post('http://127.0.0.1:5000/asistant', formDataAu);
+            const response = await axios.post('https://xlceor.pythonanywhere.com/asistant', formDataAu);
             if (response.status === 200) {
                 const Response = response.data;
                 setTxRequest(Response.prompt);

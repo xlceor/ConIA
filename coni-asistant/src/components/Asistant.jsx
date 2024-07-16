@@ -13,21 +13,22 @@ const Asistant = ({ project, convoId }) => {
     const [txRequest, setTxRequest] = useState('');
     const [messages, setMessages] = useState([]);
     
+
     useEffect(() => {
         if (convoId) {
             fetchMessages(convoId);
         }
     }, [convoId]);
 
-  const fetchMessages = async (conversationId) => {
-    if (!conversationId) return;
-    const msgs = await getMessages(user.uid, project, conversationId);
-    if (msgs) {
-      setMessages(Object.values(msgs));
-    } else {
-      setMessages([]);
-    }
-  };
+    const fetchMessages = async (conversationId) => {
+        if (!conversationId) return;
+        const msgs = await getMessages(user.uid, project, conversationId);
+        if (msgs) {
+            setMessages(Object.values(msgs));
+        } else {
+            setMessages([]);
+        }
+    };
 
   const updateMessages = async (request, response) => {
     const userMessage = {
@@ -98,7 +99,7 @@ const Asistant = ({ project, convoId }) => {
 
 
     try {
-        const response = await axios.post('http://127.0.0.1:5000/', formDataTx);
+        const response = await axios.post('https://xlceor.pythonanywhere.com/', formDataTx);
         if (response.status === 200) {
             const { text, file } = response.data;
             updateMessages(txRequest, text);
@@ -131,7 +132,7 @@ const handleUpload = async (blob) => {
 
 
     try {
-        const response = await axios.post('http://127.0.0.1:5000/', formDataAu);
+        const response = await axios.post('https://xlceor.pythonanywhere.com/', formDataAu);
         if (response.status === 200) {
             const Response = response.data;
             setTxRequest(Response.prompt);
@@ -150,7 +151,7 @@ const handleUpload = async (blob) => {
 
     return (
             <div className='flex flex-col h-full items-center justify-center w-full'>
-                <div className='h-full md:w-3/4 w-full flex flex-col justify-center items-center'>
+                <div className='h-full md:w-5/6 w-full flex flex-col justify-center items-center'>
                     <div className="flex flex-col overflow-auto bg-slate-500/50 h-3/4 items-start md:w-3/4 w-full m-5 rounded-lg">
                         {loading && <div className="loading">Cargando...</div>}
     

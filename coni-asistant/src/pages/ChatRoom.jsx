@@ -27,7 +27,7 @@ const ChatRoom = ({ project }) => {
 
                         setIdCounter(convoIds.length);
 
-                        setSelectedConversationId(1); 
+                        setSelectedConversationId(convoIds.length-1); 
                         setConversations(updatedConvos);
                     } else {
                         handleAddConversation();

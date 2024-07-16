@@ -8,10 +8,23 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background: linear-gradient(to right top, #9b1179b6, #4c0b60, #4e1c99, #520b60, #760762b9);
+  background: linear-gradient(to right top, #7f36d8, #0600ad, #7f36d8);
+  /* background: linear-gradient(to right top, #9b1179b6, #600b34, #81124f, #600b38, #760762b9); 
+  background: linear-gradient(to right top, #94119bb6, #4c0b60, #4e1c99, #520b60, #710776b9);
+      background: linear-gradient(to right top, #760762b9, #5c12a0, #4521ab, #59119c, #760762b9); */
+  /* background: linear-gradient(to right top, #11489bb6, #0b1f60, #084578, #0b1f60, #11489bb6);
+  background: linear-gradient(to right top, #11769bb6, #0b3760, #095c5e, #0b3760, #11769bb6); 
+  background: linear-gradient(to right top, #119b99b6, #0b4960, #096c43, #0b4960, #119b99b6); 
+  background: linear-gradient(to right top, #119b41b6, #0b602c, #387e0c, #0b602c, #119b41b6); */
+  /* background: linear-gradient(to right top, #5b9b11b6, #31600b, #69740b, #34600b, #629b11b6); */
+  /* background: linear-gradient(to right top, #b2a10eb6, #60590b, #9f8a00, #60590b, #b2a10eb6); */
+  /* background: linear-gradient(to right top, #b91c1c, #b95005, #b91c1c); */
+  
+
+
   background-attachment: fixed;
   -webkit-backdrop-filter: blur(64px);
-  backdrop-filter: blur(64px); 
+  backdrop-filter: blur(64px);
   height: 100%;
 
   color-scheme: light dark;
