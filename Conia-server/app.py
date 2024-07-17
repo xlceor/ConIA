@@ -18,7 +18,7 @@ CORS(app)
 load_dotenv()
 AI_API_KEY = os.getenv('OPENAI_API_KEY')
 XI_API_KEY = os.getenv('XI_API_KEY')
-clientXI = ElevenLabs(api_key=XI_API_KEY)
+clientXI = ElevenLabs(api_key='sk_32dd7683112c2964897921c57164dbb2051ac260e564f647')
 clientAI = OpenAI(api_key=AI_API_KEY)
 
 
@@ -132,9 +132,10 @@ def asistant():
     
     responseTx = LLM.completion(clientAI, history, prompt, user_name)
     
-    audio_stream = Synthesizer.synthesize(clientXI, responseTx)
+    audio_stream = Synthesizer.syntetize(clientAI, responseTx)
     audio_data = audio_stream.getvalue()
     responseStr = base64.b64encode(audio_data).decode('utf-8')
+    print(responseStr)
     
     responseJson = {
         'result': 'ok',
