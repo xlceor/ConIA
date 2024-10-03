@@ -7,7 +7,7 @@
 
 Conia es una aplicación web full-stack diseñada para ayudar a los jóvenes 
 a gestionar sus proyectos escolares de manera eficiente y efectiva, 
-utilizando la Inteligencia Artificial como motor impulsor. Nuestra 
+utilizando la Inteligencia Artificial como motor impulsor. Esta
 plataforma se centra en proporcionar herramientas personalizadas y fáciles 
 de usar, aptas para el uso escolar y especialmente útiles en la gestión de 
 proyectos, tareas, recordatorios y herramientas útiles.
@@ -43,7 +43,7 @@ con nuestro chatbot.
 *   Conia se enfoca específicamente en ayudar a los jóvenes, ofreciendo 
 una experiencia de usuario personalizada y adaptada a sus necesidades 
 escolares.
-*   Nuestra aplicación es fácil de usar y proporciona herramientas útiles 
+*   La aplicación es fácil de usar y proporciona herramientas útiles 
 para mejorar la productividad y el control sobre la vida escolar.
 
 ## **Proyecto**
@@ -59,6 +59,4 @@ productividad.
 Conia es una aplicación web full-stack diseñada para ayudar a los jóvenes 
 a gestionar sus proyectos escolares. Con su plataforma personalizada y 
 fácil de usar, podemos mejorar la productividad y el control sobre la vida 
-escolar de nuestros usuarios. Estamos emocionados de llevar este proyecto 
-a cabo y proporcionar una herramienta valiosa para los jóvenes en el 
-futuro.
+escolar de nuestros usuarios.
